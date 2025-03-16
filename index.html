@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- favicons -->
+	<link rel="icon" href="./imgs/favicon.ico" />
+	<link rel="apple-touch-icon" href="./imgs/favicon-192.png" />
+	<meta name="author" content="Travolgi">
+	<!-- title page & SEO meta -->
+	<title>Home - Tibaaneli</title>
+	<meta name="description"
+		content="The perfect HTML template to create your winery or vineyard website in minutes, without the need for advanced technical skills with an elegant and modern design, optimized for SEO and high performance.">
+	<meta name="keywords"
+		content="vineyard, factory, distillery, wine, winery, wineries, grape, website, html template, website template, landing page, responsive, html5 themes, multipurpose template, html, html5, css, template, themes">
+	<!-- google fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet"
+		href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;800&family=Prata&display=swap">
+	<!-- css -->
+	<link rel="stylesheet" href="./css/fontawesome.min.css" />
+	<link rel="stylesheet" href="./css/cssgg.min.css">
+	<link rel="stylesheet" href="./css/aos.css" />
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/custom.css">
+</head>
+
+<body>
+	<!-- Accessibility: Skip to content -->
+	<a href="#main" class="skip-to-content">Skip to content</a>
+	<!-- Preload page -->
+	<div id="preload">
+		<img src="./imgs/logo.png" alt="GrapeLand logo">
+	</div>
+
+
+	<!-- header -->
+	<header data-aos="zoom-in" data-aos-delay="100">
+		<!-- your logo here -->
+		<a href="/">
+			<img src="./imgs/logo.png" alt="GrapeLand logo">
+		</a>
+	</header>
+
+	<!-- navbar toggle button -->
+	<button class="nav-toggle" aria-controls="navbar" aria-expanded="false" data-aos="fade-down" data-aos-delay="200">
+		<span class="sr-only">Menu</span>
+		<span class="bar1"></span>
+		<span class="bar2"></span>
+		<span class="bar3"></span>
+	</button>
+
+	<!-- navbar overlay -->
+	<div class="overlay nav-overlay" data-visible="false"></div>
+
+	<!-- navbar with page links -->
+	<nav id="navbar" data-visible="false">
+		<!-- languages menu -->
+		<ul class="lang">
+			<li><a href="/" class="active">EN</a></li>
+			<li><a href="#">GE</a></li>
+			<li><a href="#">CH</a></li>
+			<li><a href="#">RU</a></li>
+		</ul>
+
+		<!-- main menu -->
+		<ul>
+			<li><a href="/" class="active">Home</a></li>
+			<li><a href="./about.html">About</a></li>
+			<li class="has-submenu">
+				<span>Pages</span>
+				<ul class="submenu">
+					<li><a href="./winery.html">Winery</a></li>
+					<li><a href="./vineyard.html">Vineyard</a></li>
+					<li><a href="./experiences.html">Experiences</a></li>
+					<li><a href="./post.html">Post</a></li>
+					<li><a href="./product.html">Product</a></li>
+					<li><a href="./faqs.html">Faqs</a></li>
+				</ul>
+			</li>
+			<li><a href="./shop.html">Shop</a></li>
+			<li><a href="./blog.html">Blog</a></li>
+			<li><a href="./contact.html">Contact</a></li>
+		</ul>
+
+		<!-- secondary menu -->
+		<ul class="secondary">
+			<li><a href="./cart.html">Cart</a></li>
+			<li><a href="./checkout.html">Checkout</a></li>
+			<li><a href="./account.html">Account</a></li>
+			<li><a href="./login.html">Login</a></li>
+			<li><a href="./privacy.html">Privacy policy</a></li>
+		</ul>
+
+		<!-- decorative image menu (only large screen) -->
+		<img src="./imgs/nav-image.png" class="nav-image" alt="GrapeLand winery">
+	</nav>
+
+	<!-- main page content -->
+	<main id="main">
+		<!-- hero slider section -->
+		<section id="heroSlider" class="hero-slider" data-aos="zoom-out" data-aos-delay="200">
+			<ul class="hero-bg">
+				<!-- slide item -->
+				<li class="bg-img bg-zoom" style="--imgUrl: url('../imgs/slide-1.webp')" data-slide="1"></li>
+				<!-- slide item -->
+				<li class="bg-img bg-zoom" style="--imgUrl: url('../imgs/vineyard.webp')" data-slide="2" hidden></li>
+				<!-- slide item -->
+				<li class="bg-img bg-zoom" style="--imgUrl: url('../imgs/winery.webp')" data-slide="3" hidden></li>
+			</ul>
+
+			<!-- hero slider content -->
+			<div class="hero-content flex-center items-center">
+				<div class="overlay"></div>
+				<!-- slider text -->
+				<!-- <h4 class="pt-4">Tibaaneli</h4> -->
+				<h1 class="container txt-center">Wines Produced with Ancient Traditions Handed down for generations</h1>
+
+				<!-- you tube video button activator -->
+				<button class="yt-popup-btn">
+					<i class="gg-play-button"></i>
+				</button>
+				<span>Watch the video</span>
+				<!-- you tube pup up -->
+				<div class="yt-popup">
+					<div class="yt-popup-content">
+						<span class="close-yt-popup">&times;</span>
+						<!-- enter the url of your video here -->
+						<iframe src="https://www.youtube.com/embed/JO0hz-q8lwY" allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<!-- about section -->
+		<section class="container pbk-8 grid">
+			<!-- image -->
+			<img src="./imgs/welcome.jpg" alt="GrapeLand Winery" data-aos="fade-down" />
+
+			<div class="flex-center p-10x100">
+				<div class="w-100">
+					<!-- titles -->
+					<h5 data-aos="fade-up" data-aos-delay="100">Who we are</h5>
+					<h1 data-aos="fade-up" data-aos-delay="200">About us</h1>
+					<!-- line separator -->
+					<span class="title-line" data-aos="fade-up" data-aos-delay="100"></span>
+					<!-- text -->
+					<p data-aos="fade-down" data-aos-delay="300">Consectetur adipisicing elit. Voluptatem in, architecto
+						dolor quisquam error molestias quam perspiciatis quidem, magnam, corporis tempore minima
+						adipisci exercitationem labore molestiae ratione libero istinctio.</p>
+					<p class="mb-3" data-aos="fade-down" data-aos-delay="300">Lorem ipsum dolor sit amet consectetur
+						adipisicing elit. Voluptatem in, architecto dolor quisquam error molestias quam perspiciatis
+						quidem, magnam, corporis tempore minima adipisci exercitationem labore molestiae ratione liber
+						distincti enim.</p>
+					<!-- button -->
+					<a href="./winery.html" class="btn" data-aos="fade-down" data-aos-delay="400">Discover now</a>
+				</div>
+			</div>
+		</section>
+
+
+		<!-- winery section -->
+		<section class="bg-black pbk-8" data-aos="fade-up">
+			<div class="container">
+				<div class="grid gap-0">
+					<div class="flex-center bg-white p-10x100" data-aos="fade-down" data-aos-delay="100">
+						<div class="w-100">
+							<h5 data-aos="fade-down" data-aos-delay="200">Since 1789</h5>
+							<h1 data-aos="fade-down" data-aos-delay="300">Our winery</h1>
+							<!-- line decoration -->
+							<span class="title-line" data-aos="fade-down" data-aos-delay="350"></span>
+							<p data-aos="fade-down" data-aos-delay="400">Consectetur adipisicing elit. Voluptatem in,
+								architecto dolor quisquam error molestias quam perspiciatis quidem, magnam, corporis
+								tempore minima adipisci exercitationem labore molestiae ratione libero istinctio.</p>
+							<p class="mb-3" data-aos="fade-down" data-aos-delay="400">Lorem ipsum dolor sit amet
+								consectetur adipisicing elit. Voluptatem in, architecto dolor quisquam error molestias
+								quam perspiciatis quidem, magnam, corporis tempore minima adipisci exercitationem labore
+								molestiae ratione liber distincti enim.</p>
+							<!-- button -->
+							<a href="./winery.html" class="btn" data-aos="fade-down" data-aos-delay="500">Discover
+								now</a>
+						</div>
+					</div>
+
+					<!-- image -->
+					<img src="./imgs/fridge.webp" alt="GrapeLand Winery" data-aos="fade-left" data-aos-delay="250">
+				</div>
+			</div>
+		</section>
+
+
+		<!-- product section -->
+		<section class="bg-light pbk-8" data-aos="fade-up">
+			<div class="container mb-3">
+				<div class="w-50 m-auto txt-center mb-3" data-aos="fade-down" data-aos-delay="100">
+					<h5>Discover</h5>
+					<h1>Our Wines</h1>
+					<span class="title-line"></span>
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit saepe adipisci, quod
+						laborum.</p>
+				</div>
+
+				<!-- swiper slider -->
+				<div class="swiper" data-aos="fade-up" data-aos-delay="250">
+					<!-- swiper slide -->
+					<div class="swiper-slide" data-slide="1">
+						<div class="swiper-image">
+							<img src="./imgs/wine-1.webp" alt="GrapeLand wine">
+						</div>
+
+						<div class="flex-center bg-white p-10x100">
+							<div class="w-100">
+								<h3>2015</h3>
+								<h1>Chardonnay</h1>
+
+								<ul class="mb-2">
+									<li><b>Denomination:</b> Doc Wine</li>
+									<li><b>Grape:</b> White</li>
+								</ul>
+
+								<h3>Tasting notes:</h3>
+								<p class="separator">It has an aromatic profile where delicate nuances of vanilla,
+									butter and hazelnut emerge, accompanied by a refined minerality. In the mouth, it
+									stands out for its freshness and uniqueness, with a soft structure and a persistent
+									finish that invites a subsequent sip.</p>
+
+								<h3>Recommended pairings:</h3>
+								<p class="mb-3">Excellent with fish-based dishes, such as baked sea bass or a selection
+									of shellfish, it perfectly enhances the marine notes.</p>
+
+								<a href="./product.html" class="btn">Discover now</a>
+							</div>
+						</div>
+					</div>
+
+					<!-- swiper slide -->
+					<div class="swiper-slide" data-slide="2" hidden>
+						<div class="swiper-image">
+							<img src="./imgs/wine-2.webp" alt="GrapeLand wine">
+						</div>
+
+						<div class="flex-center bg-white p-10x100">
+							<div class="w-100">
+								<h3>2010</h3>
+								<h1>Cabernet Pinot</h1>
+
+								<ul class="mb-2">
+									<li><b>Denomination:</b> Doc Wine</li>
+									<li><b>Grape:</b> Red</li>
+								</ul>
+
+								<h3>Tasting notes:</h3>
+								<p class="separator">Wine that presents itself with an intense red color, with purple
+									hues. On the nose, it offers a complex bouquet in which aromas of berries, such as
+									currants and blueberries, intertwine, accompanied by delicate herbaceous notes and
+									spices. In the mouth it reveals itself to be structured and harmonious, with soft
+									tannins.</p>
+
+								<h3>Recommended pairings:</h3>
+								<p class="mb-3">It pairs perfectly with red meat dishes, such as a succulent grilled
+									fillet or braised beef with red wine sauce.</p>
+
+								<a href="./product.html" class="btn">Discover now</a>
+							</div>
+						</div>
+					</div>
+
+					<!-- swiper slide -->
+					<div class="swiper-slide" data-slide="3" hidden>
+						<div class="swiper-image">
+							<img src="./imgs/wine-3.webp" alt="GrapeLand wine">
+						</div>
+
+						<div class="flex-center bg-white p-10x100">
+							<div class="w-100">
+								<h3>2005</h3>
+								<h1>Sangiovese</h1>
+
+								<ul class="mb-2">
+									<li><b>Denomination:</b> Doc Wine</li>
+									<li><b>Grape:</b> Red</li>
+								</ul>
+
+								<h3>Tasting notes:</h3>
+								<p class="separator">Red wine of great character, typical of the Italian winemaking
+									tradition. It has an intense ruby ​​red color, often with garnet reflections in
+									older wines. On the nose, it offers a complex and fascinating bouquet, with hints of
+									ripe cherry, plum, and floral notes of violet. On the palate, it is harmonious and
+									well structured.</p>
+
+								<h3>Recommended pairings:</h3>
+								<p class="mb-3">It pairs well with red meats, roast beef, lamb, tomato-based dishes,
+									pasta or lasagna.</p>
+
+								<a href="./product.html" class="btn">Discover now</a>
+							</div>
+						</div>
+					</div>
+
+					<!-- swiper controlls -->
+					<div class="swiper-controls">
+						<svg id="swiper-previous" viewBox="0 0 50 12" role="button">
+							<path fill-rule="evenodd"
+								d="M1.922 5.904h48.07v-.966H1.922L6.176.683 5.493 0-.048 5.538l5.541 5.538.683-.683z">
+							</path>
+						</svg>
+
+						<svg id="swiper-next" viewBox="0 0 50 12" role="button">
+							<path fill-rule="evenodd"
+								d="M48.078 6.096H.008v.966h48.07l-4.254 4.255.683.683 5.541-5.538L44.507.924l-.683.683z">
+							</path>
+						</svg>
+					</div>
+
+					<!-- swiper navigation bullet -->
+					<ul class="flex-center flex-wrap gap swiper-bullets">
+						<li class="active" data-slide-control="1">Chardonnay</li>
+						<li data-slide-control="2">Cabernet Pinot</li>
+						<li data-slide-control="3">Sangiovese</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+
+		<!-- cta section -->
+		<section class="bg-img" style="--imgUrl: url('../imgs/vineyard-tree.webp')" data-aos="zoom-out">
+			<div class="container">
+				<!-- box translated -->
+				<div class="bg-white p-10x100 translateY--7" data-aos="fade-up" data-aos-delay="250">
+					<h1>Ancient Vineyards of fine Grapes</h1>
+					<p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est quasi officia sit
+						optio sapiente iure quam, nam veniam neque aliquid soluta rem cum, corrupti laboriosam doloribus
+						a deleniti. Neque, dolorem?</p>
+					<!-- button -->
+					<a href="./vineyard.html" class="btn">Discover now</a>
+				</div>
+			</div>
+		</section>
+
+
+		<!-- blog section -->
+		<section class="bg-light pbk-8" data-aos="fade-up">
+			<div class="container">
+				<div class="w-50 m-auto txt-center mb-3" data-aos="fade-down" data-aos-delay="100">
+					<h5>Latest posts</h5>
+					<h1>Blog</h1>
+					<span class="title-line"></span>
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt saepe rerum delectus odit.</p>
+				</div>
+
+				<div class="grid gtc-3">
+					<!-- post -->
+					<article class="post" data-aos="fade-right" data-aos-delay="200">
+						<a href="./post.html">
+							<img src="./imgs/blog/post-1.webp" alt="GrapeLand Blog post">
+						</a>
+						<div class="bg-white p-10x100">
+							<h5 class="txt-primary">17/10/2024</h5>
+							<h2>How to Choose the Perfect Wine for Every Occasion</h2>
+							<a href="./post.html" class="btn">Read more</a>
+						</div>
+					</article>
+
+					<!-- post -->
+					<article class="post" data-aos="fade-right" data-aos-delay="300">
+						<a href="./post.html">
+							<img src="./imgs/blog/post-2.webp" alt="GrapeLand Blog post">
+						</a>
+						<div class="bg-white p-10x100">
+							<h5 class="txt-primary">26/06/2024</h5>
+							<h2>From Vineyard to Bottle: The Winemaking Process</h2>
+							<a href="./post.html" class="btn">Read more</a>
+						</div>
+					</article>
+
+					<!-- post -->
+					<article class="post" data-aos="fade-right" data-aos-delay="400">
+						<a href="./post.html">
+							<img src="./imgs/blog/post-3.webp" alt="GrapeLand Blog post">
+						</a>
+						<div class="bg-white p-10x100">
+							<h5 class="txt-primary">25/04/2024</h5>
+							<h2>Wine and Cheese Pairings: An Essential Guide</h2>
+							<a href="./post.html" class="btn">Read more</a>
+						</div>
+					</article>
+				</div>
+			</div>
+		</section>
+
+
+		<!-- event section -->
+		<section class="bg-black pbk-8" data-aos="fade-up">
+			<div class="container">
+				<div class="grid gap-0">
+					<!-- image -->
+					<img src="./imgs/drink.webp" alt="GrapeLand Experiences Winerues - html5 template"
+						data-aos="fade-left" data-aos-delay="100">
+
+					<div class="flex-center bg-white p-10x100" data-aos="fade-left" data-aos-delay="200">
+						<div class="w-100">
+							<h1>Special Location and event</h1>
+							<span class="title-line"></span>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, similique. Quasi,
+								voluptate nesciunt natus quidem est at voluptates quibusdam blanditiis ipsam ratione
+								expedita eos iste eum quo officiis corporis cum.</p>
+							<!-- button -->
+							<a href="./experiences.html" class="btn">Explore now</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<!-- cta section -->
+		<section class="pln-5x100 pb-8 bg-half" style="--halfColors: var(--black) 50%, var(--light-grey) 50%"
+			data-aos="zoom-out">
+			<div class="txt-center p-10x100 bg-img" style="--imgUrl: url('../imgs/experience.webp')">
+				<div class="w-50 m-auto bg-white p-10x100" data-aos="zoom-in" data-aos-delay="200">
+					<div class="txt-center mb-3">
+						<h5>Discover</h5>
+						<h1>Visit and Events</h1>
+						<span class="title-line"></span>
+						<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque sunt sapiente, perspiciatis
+							iste velit nulla corporis rerum! Quos, quia corporis distinctio, doloremque quam in beatae
+							facere incidunt quae, iure necessitatibus.</p>
+					</div>
+					<!-- button -->
+					<a href="tel:" class="btn mb-2">Book now</a>
+					<!-- email -->
+					<p><a href="mailto:your@email.com">your@email.com</a></p>
+				</div>
+			</div>
+		</section>
+	</main>
+
+
+	<!-- footer -->
+	<footer data-aos="fade-down">
+		<div class="container">
+			<div class="grid gtc-3 gap-x3 mb-5">
+				<div>
+					<!-- your logo here -->
+					<a href="/" class="logo">
+						<img src="./imgs/logo.svg" alt="GrapeLand logo">
+					</a>
+					<h4>Why choose our wine cellar over all the other wineries and venues?</h4>
+					<p>We believe that our wide selection of red, rosé and white wines carefully produced in our hills
+						with traditional methods can be a winning factor. All this makes us the best place in the area,
+						where you can order bottles of fine wine with any side dish and typical product of your choice.
+					</p>
+				</div>
+
+				<!-- contact info -->
+				<div>
+					<h3>Contact us</h3>
+					<ul class="li">
+						<li><i class="fa-solid fa-location-dot"></i> Your Address Here 00, 30100 - Venice - Italy</li>
+						<li><i class="fa-solid fa-clock"></i> Mon-Fri 11:00-00:00, Sat-Sun 18:00-23:00</li>
+						<li><i class="fa-solid fa-phone"></i> +39 321 123456</li>
+						<li><i class="fa-solid fa-envelope"></i> your@email.com</li>
+					</ul>
+				</div>
+
+				<!-- newsletter -->
+				<div>
+					<h3>Fine Wines Made with Ancient Traditions</h3>
+					<p>Sign up to our newsletter and receive incredible wine insights from our expert sommeliers, plus
+						event announcements and all our discounted specials...</p>
+					<!-- newsletter form -->
+					<form action="#">
+						<input type="email" name="newsletter" id="newsletter" placeholder="Enter your email" />
+						<button type="submit">Subscribe now</button>
+					</form>
+				</div>
+			</div>
+
+			<div class="flex justify-between flex-wrap">
+				<!-- social links -->
+				<ul class="flex">
+					<li>
+						<a href="#" target="_self">
+							<i class="fa-brands fa-facebook-f"></i>
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_self">
+							<i class="fa-brands fa-instagram"></i>
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_self">
+							<i class="fa-brands fa-x-twitter"></i>
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_self">
+							<i class="fa-brands fa-youtube"></i>
+						</a>
+					</li>
+				</ul>
+
+				<!-- copyrights -->
+				<p>Tibaaneli <span id="thisYear"></span> &copy; All Rights Reserved.</p>
+			</div>
+		</div>
+	</footer>
+
+	<!-- scrool to top button -->
+	<button id="goTop" title="Scrool to top">
+		<i class="fa-solid fa-arrow-up"></i>
+	</button>
+
+	<!-- js -->
+	<script src="./js/aos.js"></script>
+	<script src="./js/main.js" defer></script>
+</body>
+
+</html>
